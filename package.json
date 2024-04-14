@@ -1,0 +1,52 @@
+{
+  "name": "papos",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Skills2bal",
+      "url": "https://github.com/Skills2bal"
+    },
+    {
+      "name": "lU",
+      "url": "https://github.com/xyhomi3"
+    }
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^1.6.0",
+    "@prisma/client": "^5.12.1",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.368.0",
+    "next": "14.2.1",
+    "next-auth": "^5.0.0-beta.16",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sonner": "^1.4.41",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^0.9.0"
+  },
+  "devDependencies": {
+    "@ouest-labs/tsconfig": "^0.0.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.1",
+    "postcss": "^8",
+    "prisma": "^5.12.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
