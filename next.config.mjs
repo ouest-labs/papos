@@ -8,6 +8,7 @@ const nextConfig = {
       },
     ],
   },
+  transpilePackages: ["lucide-react", "crypto"],
 };
 
 export default nextConfig;
