@@ -1,0 +1,2 @@
+// icons
+export * from "./svg";
