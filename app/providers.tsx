@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
-import { SessionProvider } from "next-auth/react";
-import { ThemeProvider } from "@/components/modules/theme";
-import { Toaster } from "sonner";
 import { auth } from "@/auth";
+import { ThemeProvider } from "@/components/modules/theme";
+import { SessionProvider } from "next-auth/react";
+import { ReactNode } from "react";
+import { Toaster } from "sonner";
 type Props = {
   children: ReactNode;
 };

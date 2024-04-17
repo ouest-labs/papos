@@ -10,13 +10,12 @@ import Provider from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  interactiveWidget: 'resizes-visual',
+  interactiveWidget: 'resizes-content',
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "hsl(30,100%, 98%)" },
     { media: "(prefers-color-scheme: dark)", color: "hsl(224, 63%, 26%)" },
@@ -24,7 +23,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`${process.env.NEXT_PUBLIC_WEBSITE_URL}`),
+  metadataBase: new URL("https://papos.0000.codes/"),
   title: "Papos",
   description: "Partagez ce qui vous préoccupe et ce que vous ressentez de manière sécurisée et anonyme.",
   robots: {
