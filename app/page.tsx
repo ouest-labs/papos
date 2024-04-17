@@ -1,9 +1,5 @@
-import Posts from "./post";
+import Posts from "./components/post";
 
 export default function Home() {
-  return (
-    <section className="flex flex-col">
-      <Posts />
-    </section>
-  );
+  return <Posts />;
 }

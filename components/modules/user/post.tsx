@@ -7,12 +7,7 @@ import { useFormStatus } from "react-dom";
 export const SendPost = () => {
   const { pending } = useFormStatus();
   return (
-    <Button
-      variant="secondary"
-      type="submit"
-      disabled={pending}
-      data-umami-event="send-message"
-    >
+    <Button type="submit" disabled={pending} data-umami-event="send-message">
       {!pending && "Poster"}
       {pending && (
         <Loader2
