@@ -1,8 +1,3 @@
-// https://json.schemastore.org/partial-eslint-plugins.json
 {
-  "extends": "next/core-web-vitals",
-  "ignorePatterns": [
-    "next.config.mjs",
-    "postcss.config.mjs"
-  ]
+  "extends": ["@ouest-labs/eslint-config/next.js"]
 }

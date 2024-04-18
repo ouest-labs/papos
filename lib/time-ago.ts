@@ -7,7 +7,7 @@ const timeAgo = (date: Date) => {
 
   if (elapsedHours >= 24) {
     const days = Math.floor(elapsedHours / 24);
-    return `il y a${days} jours`;
+    return `il y a ${days} jours`;
   } else if (elapsedHours >= 1) {
     return `il y a ${elapsedHours} heures`;
   } else if (elapsedMinutes >= 1) {

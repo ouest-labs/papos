@@ -5,7 +5,7 @@ import { createPost } from "@/db";
 const Footer = async () => {
   const session = await auth();
   return (
-    <footer className="fixed inset-x-0 bottom-0 bg-background/50 backdrop-blur-lg border-t p-5">
+    <footer className="sticky inset-x-0 bottom-0 bg-background/50 backdrop-blur-lg border-t p-5">
       <form
         action={createPost}
         className="flex items-center justify-between gap-x-2.5"

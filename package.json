@@ -45,8 +45,8 @@
     "vaul": "^0.9.0"
   },
   "devDependencies": {
-    "@ouest-labs/tsconfig": "^0.0.2",
-    "@ouest-labs/tw-config": "^0.0.2",
+    "@ouest-labs/ts-config": "^1.0.1",
+    "@ouest-labs/tw-config": "^1.0.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

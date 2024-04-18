@@ -61,9 +61,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Provider>
-        <body className={cn(inter.className, "bg-background")}>
+        <body className={cn(inter.className, "bg-background min-h-dvh w-dvw")}>
           <Navbar/>
-          <main className="fixed top-[87px] w-dvw h-[calc(100vh-168.5px)] overflow-y-auto" >{children}</main>
+          <main >{children}</main>
           <Footer/>
         </body>
       </Provider>

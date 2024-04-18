@@ -14,7 +14,7 @@
       "@/*": ["./*"]
     }
   },
-  "extends": "@ouest-labs/tsconfig/nextjs",
+  "extends": "@ouest-labs/ts-config/nextjs",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "prisma/seed.mjs", "postcss.config.mjs", "next.config.mjs",],
   "exclude": ["node_modules"]
 }

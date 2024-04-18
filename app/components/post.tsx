@@ -1,12 +1,12 @@
+import { BinaryLike, createHash } from 'crypto';
 import { Blockquote, BlockquoteAuthor } from '@/components/ui/blockquote';
 
-import { auth } from '@/auth';
 import { SupprimerPost } from '@/components/modules';
-import timeAgo from '@/lib/time-ago';
+import { auth } from '@/auth';
 import { db } from '@/prisma/db';
-import { createHash } from 'crypto';
+import timeAgo from '@/lib/time-ago';
 
-function anonymizeUsername(username) {
+function anonymizeUsername(username: BinaryLike) {
   return createHash('sha256')
     .update(username)
     .digest('hex')
