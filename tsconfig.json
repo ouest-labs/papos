@@ -1,20 +1,12 @@
 {
   "compilerOptions": {
-    "skipLibCheck": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "moduleResolution": "bundler",
-    "isolatedModules": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+
+
     "paths": {
       "@/*": ["./*"]
     }
   },
   "extends": "@ouest-labs/ts-config/nextjs",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "prisma/seed.mjs", "postcss.config.mjs", "next.config.mjs",],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "postcss.config.mjs", "next.config.mjs",],
   "exclude": ["node_modules"]
 }
